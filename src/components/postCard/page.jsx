@@ -8,7 +8,7 @@ const postCard = () => {
       <div className={styles.top}>
         <div className={styles.imgContainer}>
           <Image
-            src="https://images.pexels.com/photos/12430326/pexels-photo-12430326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="https://images.pexels.com/photos/18844201/pexels-photo-18844201/free-photo-of-woman-reading-newspaper-on-ship.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
             alt=""
             fill
             className={styles.img}
@@ -24,7 +24,9 @@ const postCard = () => {
           recusandae rem, animi et. Doloremque molestias repellat modi
           voluptatum perspiciatis excepturi dolorem.
         </p>
-        <Link className={styles.link} href="/blog/post">READ MORE</Link>
+        <Link className={styles.link} href="/blog/post">
+          READ MORE
+        </Link>
       </div>
     </div>
   );
